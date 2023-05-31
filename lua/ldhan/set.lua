@@ -14,7 +14,7 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-local colorscheme = "habamax"
+local colorscheme = "base16-classic-dark"
 local ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 vim.o.background = "dark" -- or "light" for light mode
 if not ok then
