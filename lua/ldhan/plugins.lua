@@ -44,12 +44,14 @@ return require('packer').startup(function(use)
         {'L3MON4D3/LuaSnip'},     -- Required
         }
     }
+
     -- Auto everything
     use {
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     }
 
+    use ("nvim-tree/nvim-tree.lua")
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
