@@ -10,5 +10,5 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
-vim.keymap.set("n", "<leader>t", ":ToggleTerm<CR>")
-vim.keymap.set('t', '<esc>', [[<C-\><C-n>]])
+vim.keymap.set("n", "<M-3>", ":ToggleTerm<CR>i")
+vim.keymap.set("t", "<M-3>", "<C-\\><C-n>:ToggleTerm<CR>")
