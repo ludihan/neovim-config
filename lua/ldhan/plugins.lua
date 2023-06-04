@@ -49,9 +49,9 @@ return require('packer').startup(function(use)
     --terminal
     use { "akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup({
-            open_mapping = '<M-i>',
             direction = 'float',
-            shade_terminals = true
+            shade_terminals = true,
+            hide_numbers = true,
         })
     end }
 
