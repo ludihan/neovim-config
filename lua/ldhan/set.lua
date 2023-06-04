@@ -9,7 +9,7 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.shiftround = true
 vim.opt.expandtab = true
-
+pcall(vim.cmd, "aunmenu PopUp.How-to\\ disable\\ mouse")
 vim.opt.smartindent = true
 
 vim.opt.hlsearch = true
