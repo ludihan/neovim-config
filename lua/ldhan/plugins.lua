@@ -47,14 +47,7 @@ return require('packer').startup(function(use)
     }
 
     --terminal
-    use { "akinsho/toggleterm.nvim", tag = '*', config = function()
-        require("toggleterm").setup({
-            direction = 'float',
-            shade_terminals = true,
-            hide_numbers = true,
-        })
-    end }
-
+    use { "numToStr/FTerm.nvim" }
     -- Auto everything
     use {
         "windwp/nvim-autopairs",
